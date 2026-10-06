@@ -1,0 +1,44 @@
+GOVERNMENT DATABASE - BST
+
+Input Identification Numbers:
+A102 A25 A7 B100 B12 A120 B3 A45
+
+Inorder Traversal:
+A102 A120 A25 A45 A7 B100 B12 B3
+
+BST Height: 6
+
+SEARCH PERFORMANCE
+
+Search Key: A7
+BST Search: Found
+BST Comparisons: 3
+Linear Search: Found
+Linear Comparisons: 3
+
+Search Key: B3
+BST Search: Found
+BST Comparisons: 6
+Linear Search: Found
+Linear Comparisons: 7
+
+Search Key: A120
+BST Search: Found
+BST Comparisons: 3
+Linear Search: Found
+Linear Comparisons: 6
+
+INSERTION ORDER ANALYSIS
+Original Order: Height 6
+Sorted Order: Height 8
+Reverse Order: Height 8
+
+KEY LENGTH ANALYSIS
+Short Keys: Height 5, Average BST Comparisons 3.00, Average Linear Comparisons 3.00
+Long Keys: Height 5, Average BST Comparisons 3.00, Average Linear Comparisons 3.00
+
+COMPLEXITY ANALYSIS
+BST Search: Best O(1), Average O(log n), Worst O(n)
+Linear Search: Best O(1), Average O(n), Worst O(n)
+BST Insertion: Average O(log n), Worst O(n)
+BST Space Complexity: O(n)
